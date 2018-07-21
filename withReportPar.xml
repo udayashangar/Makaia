@@ -7,10 +7,10 @@
   <test name="Leads" parallel="classes" thread-count="5">
     <classes >
       <class name="leads.test.CreateLead"/>
-      <class name="leads.test.EditLead"/>
+     <!--  <class name="leads.test.EditLead"/>
       <class name="leads.test.DuplicateLead"/>
       <class name="leads.test.DeleteLead"/>
-      <class name="leads.test.MergeLeadsM"/>
+      <class name="leads.test.MergeLeadsM"/> -->
     </classes>
   </test> <!-- Leads -->
 </suite> <!-- Leaftaps -->
