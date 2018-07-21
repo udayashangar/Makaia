@@ -1,7 +1,7 @@
 package learn.string;
 
 public class NameReverse {
-	static String name="Udayashangar";
+	static String name="My name is Udayashangar";
 	public static void main(String[] args) {
 		
 		System.out.println("My Name:"+name);
@@ -39,8 +39,9 @@ public class NameReverse {
 		public static void method3() {
 			System.out.println("Method3 :");
 			
-		StringBuilder n = new StringBuilder("Udayashangar");
+		StringBuilder n = new StringBuilder("My name is Udayashangar");
 		StringBuilder reverseName = n.reverse();
+		
 		System.out.println(reverseName);
 		
 		}

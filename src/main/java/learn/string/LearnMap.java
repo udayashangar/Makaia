@@ -7,7 +7,7 @@ public class LearnMap {
 
 	public static void main(String[] args) {
 
-		String cmp = "Royal Bank of Scotland";
+		String cmp = "Sarumathi";
 		System.out.println("Given String: " +cmp);
 		cmp = cmp.toLowerCase();
 		System.out.println("In Lowercase: "+cmp);
@@ -26,6 +26,8 @@ public class LearnMap {
 
 
 		}System.out.print(map);
+		System.out.println();
+		System.out.println(map.entrySet());
 		/*for (Map<Character,Integer> obj : map) {
 			
 			
