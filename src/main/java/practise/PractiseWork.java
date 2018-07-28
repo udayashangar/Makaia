@@ -8,12 +8,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import learn.string.NameReverse;
+import practise.NameReverse;
 import lib.selenium.WebDriverServiceImpl;
 
 public class PractiseWork extends WebDriverServiceImpl{
 	@Test
-	public void PractiseWork() {
+	public void practiseWork() {
 		
 		NameReverse obj = new NameReverse();
 		obj.method1();
