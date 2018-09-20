@@ -35,19 +35,25 @@ public class RemoveDuplicate {
 		
 		System.out.println("Using String :");
 		
-		/*for(int i=0; i<=charArray.length; i++)
+		char[] sortArr = new char[charArray.length];
+		
+		for(int i=0; i<=charArray.length; i++)
 		{
 			for (int j = 0; j <= charArray.length; j++) {
 				if (charArray[i]==charArray[j]) {
 					
-					
+					sortArr[i]= charArray[i];
 				}
 				
-			}System.out.print(charArray[i]);
+			}
+			for (char c : sortArr) {
+				System.out.print(c);
+			}
+			
 		}
 		
 		
-		*/
+		
 	}
 		
 	}

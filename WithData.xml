@@ -7,8 +7,9 @@
 
   <test name="Leads">
     <classes>
+    <!-- <class name="runner.RunTest"/> -->
       <class name="leads.test.CreateLead"/>
-     <!--  <class name="tests.EditLead"/> -->
+      <!-- <class name="tests.EditLead"/> -->
     </classes>
   </test> <!-- Leads -->
 </suite> <!-- Leaftaps -->

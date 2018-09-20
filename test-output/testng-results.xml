@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75" started-at="2018-07-09T01:27:11Z" finished-at="2018-07-09T01:27:11Z">
+  <suite name="Default suite" duration-ms="15228" started-at="2018-09-16T06:52:30Z" finished-at="2018-09-16T06:52:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75" started-at="2018-07-09T01:27:11Z" finished-at="2018-07-09T01:27:11Z">
-      <class name="practise.PractiseWork">
-        <test-method status="PASS" signature="PractiseWork()[pri:0, instance:practise.PractiseWork@1567f1]" name="PractiseWork" duration-ms="22" started-at="2018-07-09T01:27:11Z" finished-at="2018-07-09T01:27:11Z">
+    <test name="Default test" duration-ms="15228" started-at="2018-09-16T06:52:30Z" finished-at="2018-09-16T06:52:45Z">
+      <class name="practise.StringDupicate">
+        <test-method status="PASS" signature="stringDuplicate()[pri:0, instance:practise.StringDupicate@968a59]" name="stringDuplicate" duration-ms="15000" started-at="2018-09-16T06:52:30Z" finished-at="2018-09-16T06:52:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PractiseWork -->
-      </class> <!-- practise.PractiseWork -->
+        </test-method> <!-- stringDuplicate -->
+      </class> <!-- practise.StringDupicate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
